@@ -12,7 +12,7 @@ var picture3index = 0;
 //=============================
 function Picture(src, name) {
   this.url = src;
-  this.name = imgName;
+  this.name = name;
   this.clicked = 0;
 
   allPictures.push(this);
